@@ -9,4 +9,19 @@ nav {
   background: deepskyblue;
 }
 
-@media all and (max-width: 800px) { #navbar { justify-content: space-around; } .tiles { grid-template-columns: 1fr 1fr; } } @media all and (max-width: 600px) { #navbar { flex-flow: column wrap; padding: 0; } #navbar a { text-align: center; padding: 10px; border-top: 1px solid rgba(255, 255, 255, 0.3); border-bottom: 1px solid rgba(0, 0, 0, 0.1); } #navbar a:last-of-type { border-bottom: none; } .tiles { grid-template-columns: 1fr; } } 
+img {
+    width: 250px;
+    height: 250px;
+}
+
+@media all and (max-width: 800px)
+{ #navbar { justify-content: space-around; }
+.tiles { grid-template-columns: 1fr 1fr; } }
+
+@media all and (max-width: 600px)
+{ #navbar { flex-flow: column wrap; padding: 0; }
+#navbar a { text-align: center; padding: 10px; border-top: 1px solid
+  rgba(255, 255, 255, 0.3); border-bottom: 1px solid
+  rgba(0, 0, 0, 0.1); }
+  #navbar a:last-of-type { border-bottom: none; }
+  .tiles { grid-template-columns: 1fr; } }
